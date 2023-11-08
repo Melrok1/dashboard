@@ -1,0 +1,18 @@
+.icon-lg {
+  max-width: 1.5rem;
+  max-height: 1.5rem;
+  fill: rgba(0, 0, 0, 0.702);
+}
+
+.icon-lg:hover {
+  fill: rgba(0, 0, 0, 0.9);
+}
+
+.icon-wrapper {
+  @apply p-3 rounded-full;
+  cursor: pointer;
+}
+
+.icon-wrapper:hover {
+  @apply bg-gray-300;
+}

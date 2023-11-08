@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Globálne odstránenie rámečkov pre inputy */
+
+input:focus,
+input:hover,
+textarea:focus,
+textarea:hover,
+select:focus,
+select:hover,
+button:focus,
+button:hover,
+a:focus,
+a:hover {
+  outline: none;
+  border: none;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0.702);
+}
