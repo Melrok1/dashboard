@@ -18,6 +18,7 @@ a:hover {
   border: none;
 }
 
+textarea::placeholder,
 input::placeholder {
   color: rgba(0, 0, 0, 0.702);
 }

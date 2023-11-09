@@ -3,7 +3,7 @@
     class="create-note-wrapper max-w-xl max-h-14 mx-auto rounded-lg shadow-border flex items-center justify-between"
   >
     <input
-      class="p-3 rounded-lg"
+      class="p-3 rounded-lg text-base font-light"
       type="text"
       placeholder="Add note..."
       readonly
@@ -25,7 +25,7 @@ import Icon from "@/components/Icons/Icon.vue";
 import { useModalStore } from "@/stores/modalStore";
 
 export default {
-	
+
   components: {
     Icon,
   },
