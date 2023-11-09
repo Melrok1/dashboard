@@ -1,0 +1,11 @@
+.btn {
+  @apply px-3 py-2 m-3 rounded bg-gray-100;
+}
+
+.btn:hover {
+  @apply bg-gray-200;
+}
+
+.btn:active {
+  @apply bg-gray-300;
+}
