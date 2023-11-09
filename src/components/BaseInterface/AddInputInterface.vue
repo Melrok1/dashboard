@@ -6,7 +6,7 @@
       placeholder="Add note..."
       readonly
     />
-    <icon name="checkbox" class="mr-3" />
+    <icon name="checkbox" :showTooltip="true" :tooltipText="tooltipText" class="mr-3" />
   </div>
 </template>
 
@@ -19,7 +19,7 @@ export default {
   },
   data() {
     return {
-
+			tooltipText: 'Create new list',
     }
   },
 }
